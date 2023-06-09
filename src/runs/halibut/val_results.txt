@@ -1,0 +1,49 @@
+Ultralytics YOLOv8.0.110 🚀 Python-3.8.16 torch-1.13.0+cu116 CUDA:0 (NVIDIA GeForce RTX 4090, 24215MiB)
+YOLOv8m summary (fused): 218 layers, 25871026 parameters, 0 gradients
+[34m[1mval: [0mScanning /media/int2/HardDisk1/datasets/AIHUB/halibut/4classes_fish_data/data/yolov8/valid/labels.cache... 168 images, 14 backgrounds, 0 corrupt: 100%|██████████| 168/168 [00:00<?, ?it/s]
+WARNING ⚠️ Box and segment counts should be equal, but got len(segments) = 255, len(boxes) = 286. To resolve this only boxes will be used and all segments will be removed. To avoid this please supply either a detect or segment dataset, not a detect-segment mixed dataset.
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 11/11 [00:01<00:00,  5.56it/s]
+                   all        168        286      0.598      0.498      0.474      0.338
+                 VIFAH        168          1          0          0      0.111     0.0111
+                 VIFDH        168         12      0.221      0.167     0.0952     0.0412
+                 SPDYH        168          1          1          0          0          0
+                 POKIN        168          1          0          0          0          0
+                 POREN        168          9      0.328      0.556      0.441      0.257
+                 VISPE        168         11      0.857          1      0.957      0.894
+                 MAFAH        168          8      0.747          1      0.939      0.939
+                 MAFDH        168          5       0.47        0.8      0.571      0.478
+                 MAFCH        168          5      0.807      0.842      0.829      0.385
+                 MAOUY        168          7      0.518          1      0.807      0.691
+                 MAFDB        168          7      0.661          1      0.722      0.629
+                 MAFAB        168         24      0.956      0.915       0.98      0.944
+                 VIMOU        168          7      0.351      0.571      0.682      0.473
+                 VIOUY        168          6      0.752          1      0.901      0.593
+                 VIFAN        168          5      0.852          1      0.995      0.648
+                 SPFCH        168         31      0.303      0.355      0.202     0.0973
+                 POLIN        168          2          1          0          0          0
+                 SPGCH        168          2      0.345        0.5      0.448      0.403
+                 SPASQ        168          2          1          0          0          0
+                 SPGIN        168          1          1          0          0          0
+                 SPLIC        168          2          1          0          0          0
+                 SPGIP        168         12      0.547      0.604      0.689      0.583
+                 POSPN        168          1          1          0          0          0
+                 POINN        168          1          1          0          0          0
+                 SPINI        168          1          1          0          0          0
+                 SPINH        168          1      0.168          1      0.995      0.895
+                 SPFAH        168          5      0.651        0.8      0.804      0.644
+                 VILIC        168         10      0.413        0.7      0.495      0.214
+                 VIKIE        168         35      0.345      0.286      0.251     0.0676
+                 SPFDH        168         12       0.42      0.667      0.595      0.334
+                 VIFDN        168          5      0.171      0.137     0.0948     0.0447
+                 SPEYH        168          1          1          0      0.995      0.298
+                 SPBEB        168         11      0.631      0.455      0.492      0.244
+                 MAMOU        168          1          1          0          0          0
+                 SPKIE        168          2      0.309          1      0.995      0.697
+                 MAGIP        168          5      0.391          1      0.895      0.826
+                 VIFCN        168          5      0.468        0.6      0.536      0.306
+                 MAFCB        168          1      0.243          1      0.249     0.0995
+                 SPSPE        168          4      0.494        0.5      0.437      0.342
+                 SPINT        168         21      0.611      0.619      0.695      0.366
+                 SPEYB        168          3      0.468      0.333      0.515      0.399
+Speed: 0.4ms preprocess, 5.3ms inference, 0.0ms loss, 0.8ms postprocess per image
+Results saved to [1mruns/halibut[0m

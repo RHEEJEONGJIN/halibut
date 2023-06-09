@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 53
+names: ['MADYU', 'MAFAB', 'MAFAH', 'MAFAL', 'MAFCH', 'MAFDB', 'MAFDH', 'MAGIN', 'MAGIP', 'MAMOU', 'MAOUY', 'POASN', 'POGCN', 'POGIN', 'POINN', 'POKIN', 'POLIN', 'POOUN', 'POREN', 'POSPN', 'SPASQ', 'SPBEB', 'SPDYH', 'SPEYB', 'SPEYH', 'SPFAH', 'SPFCH', 'SPFDH', 'SPGCH', 'SPGIN', 'SPGIP', 'SPINH', 'SPINI', 'SPINT', 'SPKIE', 'SPLIC', 'SPOUY', 'SPSPE', 'VIDYH', 'VIDYU', 'VIFAH', 'VIFAN', 'VIFCH', 'VIFCN', 'VIFDH', 'VIFDN', 'VIGIP', 'VIKIE', 'VILIC', 'VILII', 'VIMOU', 'VIOUY', 'VISPE']
+
+roboflow:
+  workspace: ink23
+  project: 4_classes_fish
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ink23/4_classes_fish/dataset/1
