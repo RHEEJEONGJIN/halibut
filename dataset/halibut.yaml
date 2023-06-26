@@ -1,0 +1,62 @@
+path: halibut/4classes_fish_data/data/yolov8  # dataset root dir
+train: train  # train images (relative to 'path') 128 images
+val: valid  # val images (relative to 'path') 128 images
+test: test # test images (optional)
+
+# Classes
+names:
+  0 : POOUN
+  1 : VIDYH
+  2 : VIFAH
+  3 : VIFCH
+  4 : VIFDH
+  5 : VIDYU
+  6 : POGCN
+  7 : SPDYH
+  8 : POKIN
+  9 : POASN
+  10 : POREN
+  11 : VISPE
+  12 : MAFAH
+  13 : MAFDH
+  14 : MAFCH
+  15 : MAOUY
+  16 : MAFDB
+  17 : MAFAB
+  18 : VIMOU
+  19 : VIOUY
+  20 : VIFAN
+  21 : VIGIP
+  22 : SPFCH
+  23 : SPOUY
+  24 : POGIN
+  25 : POLIN
+  26 : SPGCH
+  27 : SPASQ
+  28 : SPGIN
+  29 : SPLIC
+  30 : SPGIP
+  31 : POSPN
+  32 : POINN
+  33 : SPINI
+  34 : SPINH
+  35 : SPFAH
+  36 : VILIC
+  37 : VILII
+  38 : VIKIE
+  39 : SPFDH
+  40 : VIFDN
+  41 : SPEYH
+  42 : SPBEB
+  43 : MAMOU
+  44 : SPKIE
+  45 : MADYU
+  46 : MAGIP
+  47 : MAGIN
+  48 : VIFCN
+  49 : MAFCB
+  50 : SPSPE
+  51 : SPINT
+  52 : SPEYB
+  53 : MAFAL
+
